@@ -1,0 +1,48 @@
+<!doctype html>
+<!--我代表注释-->
+<html>
+	<head>
+	<!--head标签内可包含关于文档的信息，例如网站标题，作者，语言，css等，浏览器不会向用户显示这些头部信息-->
+		<title>Fourier</title>
+	
+	</head>
+	<body>
+	<!--body标签内是文档的主体，也是用户能看到的部分，文档的所有内容（比如文本、图像、颜色、图形等等-->
+		<h1>Fourier Transformation</h1>
+		
+		<h2>original sound of piano C</h2>
+		<audio  controls="controls" preload="auto" src="original_pianoC.wav">
+      你的浏览器不支持audio标签
+		</audio>
+		</br>
+		<h2>more than 0.1 max</h2>
+		<audio  controls="controls" preload="auto" src="pianoC_0.1Max.wav">
+		 Above audio has removed components less than 0.1 of max components.
+      你的浏览器不支持audio标签
+		</audio>
+		</br>
+		<h2>more than 0.2 max</h2>
+		<audio  controls="controls" preload="auto" src="pianoC_0.2Max.wav">
+		  Above audio has removed components less than 0.2 of max components
+      你的浏览器不支持audio标签
+		</audio>
+			</br>
+		<h2>more than 0.3 max</h2>
+		<audio  controls="controls" preload="auto" src="pianoC_0.3Max.wav">
+		 Above audio has removed components less than 0.3 of max components.
+      你的浏览器不支持audio标签
+		</audio>
+		        </br>
+		<h2>more than 0.4 max</h2>
+		<audio  controls="controls" preload="auto" src="pianoC_0.4Max.wav">
+		 Above audio has removed components less than 0.4 of max components.
+      你的浏览器不支持audio标签
+		</audio>
+		  </br>
+		<h2>more than 0.5 max</h2>
+		<audio  controls="controls" preload="auto" src="pianoC_0.5Max.wav">
+		 Above audio has removed components less than 0.5 of max components.
+      你的浏览器不支持audio标签
+		</audio>
+	</body>
+</html>
